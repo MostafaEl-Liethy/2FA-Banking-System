@@ -1,1 +1,32 @@
 # 2FA-Banking-System
+Code: CMPS1
+Two Factor Authentication 
+Abstract:
+Authentication is an important aspect in system control in computer based communication. Automatic Teller Machines (ATMs) are widely used in our daily lives due to their convenience, wide-spread availability and time-independent operation. Our Study tried to review some mechanisms used in dealing with security threat posed to ATM users and found that there are potential threats associated with using card based security system. So there is a need to add up another secondary security after the primary stage has been passed and that secondary stage is facial recognition security system as explained in an algorithm developed in our project.
+Problem:
+Biometrics refers to automatic identification of a person based on his or her physiological or behavioral characteristics. It provides a better solution for the increased security requirements of our information society than traditional identification methods, such as passwords and PINs. ATM is a cash dispenser designed to let customers enjoy banking services. The ATM, therefore, performs the traditional functions of bank cashiers and another counter staff. It is electronically operated and such response to a request by a customer is done instantly. The customer is identified by inserting a plastic ATM card with a magnetic stripe or a plastic smartcard with a chip that contains a unique card number and some security information, such as an expiration date. Security is provided by the customer entering a personal identification number (PIN). Face recognition technology is gradually evolving to universal Biometric solutions, since it requires virtually zero efforts from the user end while compared with other biometric options. Using credit cards to withdraw cash from an ATM may become a thing of the past with the introduction of facial recognition technology. The ATM comes with a camera that sends details of a customer's facial dimensions to a database for verification. Once the image is verified, the customer either enters a PIN or answers a personal security question. A thief could not use a photograph to trick the machine because the machine uses length, width and depth to recognize the image. All you need is to walk towards the ATM. Then its computer will automatically initiate a face recognition procedure, whenever the computer detects a human face in camera, obtains a picture of your face the computer and compares the image of your face to the images registered in its database.
+Materials and methods:
+The methodology adopted by this study was Internet Search. The study consulted different sources on the internet to establish evidence and facts about the claimed issues. The visited websites of the specific resource were for example website of some journals which only puts materials in HTML format rather than PDF or documents. The reviewed literatures are mostly available on the internet. So generally, secondary source of data was mainly used in a large part to come up to conclusion.
+Results:
+The following is an algorithm to be used:
+1.	    Starts.
+2.	    The user inserts an ATM card into the ATM slot.
+3.	    The user is asked for the first time to enter the correct password/PIN for the inserted card.
+4.	    The machine verifies if the inserted PIN matches with the stored one in the database; if it’s incorrect, the machine will prompt the user to re-enter the correct PIN again, if it’s incorrect for the second time, the machine will withhold the card and report to the bank officer before even going to the next step for facial recognition.
+5.	    If the entered PIN in step 4 above is correct, the machine will prompt the ATM user to face the ATM embedded camera for capturing the image.
+6.	    The machine then compares the captured image at ATM place and the one stored in the database; if it doesn’t match any of the stored photos, the card will be withheld by the ATM and the report will be sent to the bank officer for further action.
+7.	    If there is a match with a stored image, the user will be allowed to carry out the transaction he wants to perform.
+8.	    End.
+Project sub-category:
+Cyber security.
+Project contribution from industry and business point of view:
+The ATM will be safer than having only one way of accessing transactions; that is to say having PIN accesses and facial recognition login credentials creates more security as one has to pass both security barriers before having access to the transactions. Also we are using the Raspberry Pi V2 and IR camera to take the cost to its minimum.
+Conclusion:
+According to visited literature review which brings about the secondary data sources and some few primary data sources, it seems that there is potential threat posed to the ATM users either in robbery or in lost cards. The purpose of this study was to visit the literature in ATM security system and to propose one which will be more secure compared to the existing system. It was found that most of the visited literatures suggests that the use of ATM cards is suspended or totally discouraged while imposing new security system which will be more advanced compared to PIN based cards. The suggested system to be imposed is biometric security system either in fingerprint or facial recognition even though there are some challenges concerning facial recognition as a biometric security because of injuries which can occur to customer himself/herself. Part of the biometric security systems involve only facial, eye, iris and fingerprint; there’s a new biometric security can be used which is smell sensing from the mouth as everyone has natural smell from the mouth it will be easier to have unique identification except when one is drunk. From above explanation, the author thinks that having both ways of logging in, in the ATM, will be safer than having only one way of accessing transactions. That is to say having PIN accesses and facial recognition login credentials creates more security as one has to pass both security barriers before having access to the transactions.
+How does the selected sub-category serve the idea of your project?
+Every day there is a massive Cyber Attacks face the banking systems; we’re here trying to minimize them and add a new card to the game of Cyber Security.
+Future work:
+Apply the study on the online banking and mobile banking systems.
+A 3-minutes video explaining the project:
+https://youtu.be/6J0S41leykQ
+
