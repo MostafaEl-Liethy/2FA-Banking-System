@@ -1,5 +1,4 @@
 # 2FA-Banking-System
-Code: CMPS1
 Two Factor Authentication 
 Abstract:
 Authentication is an important aspect in system control in computer based communication. Automatic Teller Machines (ATMs) are widely used in our daily lives due to their convenience, wide-spread availability and time-independent operation. Our Study tried to review some mechanisms used in dealing with security threat posed to ATM users and found that there are potential threats associated with using card based security system. So there is a need to add up another secondary security after the primary stage has been passed and that secondary stage is facial recognition security system as explained in an algorithm developed in our project.
